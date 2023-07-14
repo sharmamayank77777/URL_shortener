@@ -1,0 +1,102 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+
+body{
+    width:1000vx;
+    height:100vh;
+    background-image: linear-gradient(rgba(216, 216, 247, 0.8),rgba(0,0,50,0.8)), url(img2.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.main{
+    position: relative;
+    background-color: plum;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+    left:35%;
+    border: 2px solid rosybrown;
+    border-radius: 20px;
+}
+
+
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height:30px;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left:10px;
+
+}
+
+#shorten{
+    position:relative;
+    top: 40%;
+    left: 12%;
+    height: 33px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius:  10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    
+}
+#shorten:hover{
+    background-color: rgb(45, 152, 39);
+}
+#shorturl{
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height:30px;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left:10px;
+}
+#copy{
+    position:relative;
+    top: 51.3%;
+    left: -1%;
+    height: 28px;
+    width: 50px;
+
+    border: 1px solid black;
+    border-radius:  10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    /* color: white; */
+    background-color: rgb(255, 120, 255);
+    cursor: pointer;
+
+    
+}
+#copy:hover{
+    background-color: rgb(62, 218, 60);
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 23%;
+    left:25%;
+    height: 40px;
+    width: 270px;
+    font-size: 2.2em;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
